@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario</title>
+    <!-- este formulario está conectado al archivo ejercicio.html -->
+</head>
+
+<body>
+    <h4>Complete el siguiente formulario</h4>
+    <form action="" method="">
+        <p>
+            <label for="">Nombre</label>
+            <input type="text" placeholder="Ingrese su nombre">
+        </p>
+        <p>
+            <label for="">Apellido</label>
+            <input type="text" placeholder="Ingrese su apellido">
+        </p>
+
+        <p>
+            <label for="">Contraseña</label>
+            <input type="password" placeholder="Ingrese su contraseña">
+
+        </p>
+
+        <p>
+            <label for="">Género</label>
+        <ul>
+            <li>
+                <input type="radio" name="genero" value="Mujer">
+                <label for="">Mujer</label>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <input type="radio" name="genero" value="Hombre">
+                <label for="">Hombre</label>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <input type="radio" name="genero" value="nobinario">
+                <label for="">No binario</label>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <input type="radio" name="genero" value="otro">
+                <label for="">Otro</label>
+            </li>
+        </ul>
+
+        </p>
+
+        <p>
+            <label for="">Hibbies</label>
+        <ul>
+            <li>
+                <input type="checkbox" name="hobbies[]" value="Leer">
+                <label for="">Leer</label>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <input type="checkbox" name="hobbies[]" value="Escribir">
+                <label for="">Escribir</label>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <input type="checkbox" name="hobbies[]" value="Mirar series">
+                <label for="">Mirar series</label>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <input type="checkbox" name="hobbies[]" value="Escuchar música">
+                <label for="">Escuchar música</label>
+            </li>
+        </ul>
+        </p>
+
+        <!-- esto es un comentario -->
+
+        <p>
+            <label for="">Título</label>
+            <select name="" id="">
+                <option value="Primario">Primario</option>
+                <option value="Secundario">Secundario</option>
+                <option value="Terciario">Terciario</option>
+                <option value="Universitario">Universitario</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="">Comentarios</label>
+        </p>
+        <p>
+            <textarea name="" id="" cols="30" rows="10">           </textarea>
+            <!-- textarea con error de espaciado-->
+        </p>
+        <p>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="BORRAR">
+
+        </p>
+    </form>
+    
+
+</body>
+
+</html>
